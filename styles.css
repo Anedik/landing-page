@@ -19,7 +19,7 @@ li {
 a {
     text-decoration: none;
     color: #ff2c1d;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: bold;
 }
 
@@ -35,9 +35,10 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 .header img {
-    width: 100px;
+    width: 150px;
     height: auto;
 }
 
@@ -220,4 +221,23 @@ a {
 
 .section4 p {
     margin: 0;
+}
+
+.section4 button{
+    padding: 14px 24px;
+    background-color: #ffe032;
+    color: #ff2c1d;
+
+    border: none;
+    border-radius: 10px;
+    font-size: medium;
+    font-weight: 900;
+}
+
+/*_________footer_______________________*/
+.footer{
+    background-color: #fff5e2;
+    color: #251b0c;
+    padding: 15px;
+    text-align: center;
 }
